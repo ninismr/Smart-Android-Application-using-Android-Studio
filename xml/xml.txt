@@ -1,0 +1,1 @@
+This is the layout code for the main program of the application using XML programming language.
