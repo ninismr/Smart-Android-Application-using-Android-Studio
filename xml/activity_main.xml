@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginBottom="5dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:text="SMART APP"
+        android:textColor="#FF0066CC"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:onClick="register"
+        android:id="@+id/bt_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="SIGN-UP"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:onClick="music"
+        android:id="@+id/bt_msc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_button"
+        android:text="Play Music"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
